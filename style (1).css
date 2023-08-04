@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    background-color: rgb(70, 93, 127);
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15vh;
+}
+
+esquerda {
+    vertical-align: middle;
+}
+
+direita {
+    vertical-align: middle;
+}
+
+
+aside {
+    display: flex;
+    position: absolute;
+    background-color: rgb(114, 171, 180);
+    width: 22vw;
+    top: 15vh;
+    height: 150vh;
+    float: right;
+    text-align: center;
+    left: 973px;
+
+}
+
+main{
+    width: 78vw;
+}
+
+
+main img{
+    height: 30vh;
+    padding: 10vh;
+    padding-bottom: 0;
+    padding-top: 8vh;
+}
+
+.pai{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pai div p {
+    padding-left: 6vw;
+}
+
+.pai div{
+    background-color: rgb(229, 238, 241);
+}
+
+#vigor-grego{
+    padding-left: 9vw;
+}
+
+.novo{
+    font-size: 60px;
+    align-items: center;
+}
